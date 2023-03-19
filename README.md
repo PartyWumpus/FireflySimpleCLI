@@ -11,6 +11,14 @@ Most of this tool was built using the info from the [unoffical API wiki](https:/
 1. Then, copy the GUID into the `pupil_guid` variable.
 
 At this point, it should just about work, but will need further tweaking to get all the features.
+![image](https://user-images.githubusercontent.com/48649272/226177899-c749bcdf-23d7-4365-b468-e263b2841c9e.png)
 
-1. a
-1. a
++ Set `jsonfile` to a file location on your computer to enable caching, although it'll only be helpful if you're on a device that may not be connected to wifi, like a phone using Termux (my main usecase)
++ Set `time_names` to the times of each of your lessons, so they can be labelled instead of just using the time.
++ Set `lesson_colors` to some different colours for each of your lessons so you can more easily tell which lessons you have at a glance
++ Use the `maths_teachers` variable as an example on how to make it work if you have a single lesson with multiple teachers, and each teacher teaches a different part of the course.
++ Run `alias "timetable"="python3 path/to/timetable.py"` so you can just run `timetable` instead
+
+Doing all of these will make it look much nicer, but none are mandatory:
+
+![image](https://user-images.githubusercontent.com/48649272/226178616-785841a6-367b-4d63-ad84-92bb406a4054.png)
