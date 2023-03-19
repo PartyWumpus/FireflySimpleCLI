@@ -1,7 +1,7 @@
 # FireflySimpleCLI
-A simple (unoffical) CLI interface for the Firefly schools platform
+A simple (unofficial) CLI interface for the Firefly schools platform
 
-Most of this tool was built using the info from the [unoffical API wiki](https://github.com/JoshHeng/FireflyAPI/wiki) by [JoshHeng](https://github.com/JoshHeng)
+Most of this tool was built using the info from the [unofficial API wiki](https://github.com/JoshHeng/FireflyAPI/wiki) by [JoshHeng](https://github.com/JoshHeng)
 
 ## To get it working, you'll need to:
 1. Modify the `url` variable so it points to your school's website (something like https://school.fireflycloud.net)
@@ -28,15 +28,15 @@ Doing all of these will make it look much nicer, but none are mandatory:
 
 There are 5 commands:
 ### `timetable.py lessons`
-Tells you which lessons you have (perameters are `today`, `tomorrow` or the date as `dd/mm/yyyy`)
+Tells you which lessons you have (parameters are `today`, `tomorrow` or the date as `dd/mm/yyyy`)
 
 ![image](https://user-images.githubusercontent.com/48649272/226179278-35d1c540-5456-4140-b88c-b37cdeba5697.png)
 ### `timetable.py timetable`
-Tells you what rooms you need to go to (perameters are `today`, `tomorrow` or the date as `dd/mm/yyyy`)
+Tells you what rooms you need to go to (parameters are `today`, `tomorrow` or the date as `dd/mm/yyyy`)
 
 ![image](https://user-images.githubusercontent.com/48649272/226178898-11b8ba10-08db-4ee0-8cca-aec9e65b6be8.png)
 ### `timetable.py tasks`
-Gives you a list of all your tasks (perameters are `todo`, `done` or `both`)
+Gives you a list of all your tasks (parameters are `todo`, `done` or `both`)
 
 ![image](https://user-images.githubusercontent.com/48649272/226179314-65a575f4-3880-436c-8754-1b542275c7e9.png)
 ### `timetable.py colors`
