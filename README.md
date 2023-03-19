@@ -11,7 +11,7 @@ Most of this tool was built using the info from the [unoffical API wiki](https:/
 1. Then, copy the GUID into the `pupil_guid` variable.
 
 At this point, it should just about work, but will need further tweaking to get all the features.
-![image](https://user-images.githubusercontent.com/48649272/226177899-c749bcdf-23d7-4365-b468-e263b2841c9e.png)
+![image](https://user-images.githubusercontent.com/48649272/226179234-c010fc39-dac8-44be-94a7-7c7675dd0f1e.png)
 
 + Set `jsonfile` to a file location on your computer to enable caching, although it'll only be helpful if you're on a device that may not be connected to wifi, like a phone using Termux (my main usecase)
 + Set `time_names` to the times of each of your lessons, so they can be labelled instead of just using the time.
@@ -21,4 +21,27 @@ At this point, it should just about work, but will need further tweaking to get 
 
 Doing all of these will make it look much nicer, but none are mandatory:
 
-![image](https://user-images.githubusercontent.com/48649272/226178616-785841a6-367b-4d63-ad84-92bb406a4054.png)
+![image](https://user-images.githubusercontent.com/48649272/226179257-836db9db-5dca-47c1-aabb-ef5babdecf80.png)
+
+
+## Usage
+
+There are 5 commands:
+### `timetable.py lessons`
+Tells you which lessons you have (perameters are `today`, `tomorrow` or the date as `dd/mm/yyyy`)
+
+![image](https://user-images.githubusercontent.com/48649272/226179278-35d1c540-5456-4140-b88c-b37cdeba5697.png)
+### `timetable.py timetable`
+Tells you what rooms you need to go to (perameters are `today`, `tomorrow` or the date as `dd/mm/yyyy`)
+
+![image](https://user-images.githubusercontent.com/48649272/226178898-11b8ba10-08db-4ee0-8cca-aec9e65b6be8.png)
+### `timetable.py tasks`
+Gives you a list of all your tasks (perameters are `todo`, `done` or `both`)
+
+![image](https://user-images.githubusercontent.com/48649272/226179314-65a575f4-3880-436c-8754-1b542275c7e9.png)
+### `timetable.py colors`
+Lists off all the lessons you have given custom colours to
+
+![image](https://user-images.githubusercontent.com/48649272/226179340-4769cf08-f73f-407d-b5c1-085b16260b21.png)
+### `timetable.py help`
+Gives a help prompt explaining the same information as is available here
