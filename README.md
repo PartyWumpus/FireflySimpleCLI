@@ -16,7 +16,7 @@ At this point, it should just about work, but will need further tweaking to get 
 
 + Set `jsonfile` to a file location on your computer to enable caching, although it'll only be helpful if you're on a device that may not be connected to wifi, like a phone using Termux (my main usecase)
 + Set `time_names` to the times of each of your lessons, so they can be labelled instead of just using the time.
-+ Set `lesson_colors` to some different colours for each of your lessons so you can more easily tell which lessons you have at a glance
++ Set `lesson_colors` to some different colours for each of your lessons so you can more easily tell which lessons you have at a glance. The colours are set using ANSI escape codes, [this page by Haoyi](https://www.lihaoyi.com/post/BuildyourownCommandLinewithANSIescapecodes.html#colors) should help explain how to use them.
 + Use the `maths_teachers` variable as an example on how to make it work if you have a single lesson with multiple teachers, and each teacher teaches a different part of the course.
 + Run `alias "timetable"="python3 path/to/timetable.py"` so you can just run `timetable` instead
 
