@@ -1,4 +1,4 @@
-# FireflySimpleCLI
+# SimpleFireflyCLI
 A simple (unofficial) CLI interface for the Firefly schools platform
 
 Most of this tool was built using the info from the [unofficial API wiki](https://github.com/JoshHeng/FireflyAPI/wiki) by [JoshHeng](https://github.com/JoshHeng)
